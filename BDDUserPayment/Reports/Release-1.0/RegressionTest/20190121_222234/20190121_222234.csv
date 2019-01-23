@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-RegressionTest,Chrome 71.0.3578.98,,2019-01-21 22:22:43,2019-01-21 22:23:49,1m - 6.012s,PASSED
-,,,,,,
-Test Cases/TC_RegressionTest,Chrome 71.0.3578.98,,2019-01-21 22:22:44,2019-01-21 22:23:48,1m - 4.004s,PASSED
-runWithCucumberRunner(common.CucumberPAFrunner1),Chrome 71.0.3578.98,,2019-01-21 22:22:46,2019-01-21 22:23:48,1m - 2.121s,PASSED
