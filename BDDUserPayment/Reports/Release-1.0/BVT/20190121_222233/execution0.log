@@ -1,0 +1,3371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-21T22:22:42</date>
+  <millis>1548089562341</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Release-1.0/BVT</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">BVT</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Release-1.0/BVT</property>
+</record>
+<record>
+  <date>2019-01-21T22:22:42</date>
+  <millis>1548089562374</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Promantus Inc - G10PROLT021</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Promantus Inc - G10PROLT021</property>
+</record>
+<record>
+  <date>2019-01-21T22:22:42</date>
+  <millis>1548089562376</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-01-21T22:22:42</date>
+  <millis>1548089562377</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.12</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.12</property>
+</record>
+<record>
+  <date>2019-01-21T22:22:42</date>
+  <millis>1548089562378</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-01-21T22:22:43</date>
+  <millis>1548089563144</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_SmokeTest</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_SmokeTest</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_SmokeTest</property>
+  <property name="source">C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Test Cases\\TC_SmokeTest.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-21T22:22:44</date>
+  <millis>1548089564668</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runWithCucumberRunner(common.CucumberPAFrunner)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-21T22:22:51</date>
+  <millis>1548089571734</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:22:51</date>
+  <millis>1548089571804</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:00</date>
+  <millis>1548089580341</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 005a6026732eec7b1d660faa30069806</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">005a6026732eec7b1d660faa30069806</property>
+</record>
+<record>
+  <date>2019-01-21T22:23:00</date>
+  <millis>1548089580390</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 71.0.3578.98</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 71.0.3578.98</property>
+</record>
+<record>
+  <date>2019-01-21T22:23:00</date>
+  <millis>1548089580391</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-01-21T22:23:00</date>
+  <millis>1548089580395</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-01-21T22:23:00</date>
+  <millis>1548089580396</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-01-21T22:23:00</date>
+  <millis>1548089580396</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:22</date>
+  <millis>1548089602225</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://164.164.39.5:5002/Account/Login&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:22</date>
+  <millis>1548089602970</millis>
+  <sequence>32</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Promantus&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_Login/input_Username_Username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:23</date>
+  <millis>1548089603395</millis>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;bdd&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_Login/input_Password_Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:28</date>
+  <millis>1548089608427</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:31</date>
+  <millis>1548089611693</millis>
+  <sequence>53</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/bddDemo_Login/input_Password_btn btn-default&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:33</date>
+  <millis>1548089613317</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:33</date>
+  <millis>1548089613340</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:46</date>
+  <millis>1548089626145</millis>
+  <sequence>59</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 278495caafeeffcef7a8d90185adb7b7</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">278495caafeeffcef7a8d90185adb7b7</property>
+</record>
+<record>
+  <date>2019-01-21T22:23:46</date>
+  <millis>1548089626160</millis>
+  <sequence>60</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 71.0.3578.98</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 71.0.3578.98</property>
+</record>
+<record>
+  <date>2019-01-21T22:23:46</date>
+  <millis>1548089626161</millis>
+  <sequence>61</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-01-21T22:23:46</date>
+  <millis>1548089626162</millis>
+  <sequence>62</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-01-21T22:23:46</date>
+  <millis>1548089626164</millis>
+  <sequence>63</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-01-21T22:23:46</date>
+  <millis>1548089626164</millis>
+  <sequence>64</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:54</date>
+  <millis>1548089634305</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://164.164.39.5:5002/Account/Login&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:54</date>
+  <millis>1548089634666</millis>
+  <sequence>79</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Promantus&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_Login/input_Username_Username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:54</date>
+  <millis>1548089634985</millis>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;bdd&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_Login/input_Password_Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:23:59</date>
+  <millis>1548089639988</millis>
+  <sequence>93</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:00</date>
+  <millis>1548089640694</millis>
+  <sequence>100</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/bddDemo_Login/input_Password_btn btn-default&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:00</date>
+  <millis>1548089640893</millis>
+  <sequence>112</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;11/01/2019&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:01</date>
+  <millis>1548089641095</millis>
+  <sequence>124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;145&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_MakePayment/input_Amount_Amount&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:06</date>
+  <millis>1548089646096</millis>
+  <sequence>126</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:38</date>
+  <millis>1548089678724</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //input[@id=&amp;apos;SwiftCode&amp;apos;]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:39</date>
+  <millis>1548089679084</millis>
+  <sequence>133</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to set text &amp;apos;FD124&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;SwiftCode&amp;apos;]&amp;apos; not found)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1548089678727.png</property>
+</record>
+<record>
+  <date>2019-01-21T22:24:39</date>
+  <millis>1548089679384</millis>
+  <sequence>134</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:\n [Unable to set text &amp;apos;FD124&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;SwiftCode&amp;apos;]&amp;apos; not found)]]\nPossible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:39</date>
+  <millis>1548089679398</millis>
+  <sequence>136</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>runWithCucumberRunner(common.CucumberPAFrunner) FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:\n [Unable to set text &amp;apos;FD124&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;SwiftCode&amp;apos;]&amp;apos; not found)]]\nPossible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)\r\n\tat TC_SmokeTest.run(TC_SmokeTest:19)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1548089553948.run(TempTestSuite1548089553948.groovy:36)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'FD124' of object 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' located by 'By.xpath: //input[@id='SwiftCode']' not found)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runWithCucumberRunner</method>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runWithCucumberRunner</method>
+      <line>357</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC_SmokeTest</class>
+      <method>run</method>
+      <line>19</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1548089553948</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:39</date>
+  <millis>1548089679410</millis>
+  <sequence>137</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runWithCucumberRunner(common.CucumberPAFrunner)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:39</date>
+  <millis>1548089679414</millis>
+  <sequence>139</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_SmokeTest FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:\n [Unable to set text &amp;apos;FD124&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;SwiftCode&amp;apos;]&amp;apos; not found)]]\nPossible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)\r\n\tat TC_SmokeTest.run(TC_SmokeTest:19)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1548089553948.run(TempTestSuite1548089553948.groovy:36)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'FD124' of object 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' located by 'By.xpath: //input[@id='SwiftCode']' not found)]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runWithCucumberRunner</method>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runWithCucumberRunner</method>
+      <line>357</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC_SmokeTest</class>
+      <method>run</method>
+      <line>19</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1548089553948</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:39</date>
+  <millis>1548089679416</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_SmokeTest</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:39</date>
+  <millis>1548089679433</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode</property>
+  <property name="source">C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Test Cases\\FunctionalTestCases\\FY19\\Sprint1\\TC_AddSwiftCode.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-21T22:24:39</date>
+  <millis>1548089679731</millis>
+  <sequence>143</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/MakePayment.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-21T22:24:39</date>
+  <millis>1548089679756</millis>
+  <sequence>144</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/MakePayment.feature&amp;apos; and extract report to folder: &amp;apos;C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Reports\\Release-1.0\\BVT\\20190121_222233/cucumber_report/1548089679753&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:40</date>
+  <millis>1548089680071</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO To make a payment with valid Payment details</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:40</date>
+  <millis>1548089680072</millis>
+  <sequence>146</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:40</date>
+  <millis>1548089680073</millis>
+  <sequence>148</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:41</date>
+  <millis>1548089681091</millis>
+  <sequence>149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:44</date>
+  <millis>1548089684048</millis>
+  <sequence>151</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = f0173ba1cddd6c13457233dcad32b731</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">f0173ba1cddd6c13457233dcad32b731</property>
+</record>
+<record>
+  <date>2019-01-21T22:24:45</date>
+  <millis>1548089685116</millis>
+  <sequence>152</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 71.0.3578.98</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 71.0.3578.98</property>
+</record>
+<record>
+  <date>2019-01-21T22:24:45</date>
+  <millis>1548089685117</millis>
+  <sequence>153</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-01-21T22:24:45</date>
+  <millis>1548089685117</millis>
+  <sequence>154</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-01-21T22:24:45</date>
+  <millis>1548089685119</millis>
+  <sequence>155</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-01-21T22:24:45</date>
+  <millis>1548089685120</millis>
+  <sequence>156</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687155</millis>
+  <sequence>159</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://164.164.39.5:5002/Account/Login&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687157</millis>
+  <sequence>160</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687157</millis>
+  <sequence>161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687158</millis>
+  <sequence>162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User enters username in BDD Demo Promantus</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687378</millis>
+  <sequence>174</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Promantus&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_Login/input_Username_Username&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687379</millis>
+  <sequence>175</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User enters username in BDD Demo Promantus</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687380</millis>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User enters username in BDD Demo Promantus</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687381</millis>
+  <sequence>177</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters password  in BDD Demo bdd</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687558</millis>
+  <sequence>189</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;bdd&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_Login/input_Password_Password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687559</millis>
+  <sequence>190</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters password  in BDD Demo bdd</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687559</millis>
+  <sequence>191</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters password  in BDD Demo bdd</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:47</date>
+  <millis>1548089687560</millis>
+  <sequence>192</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user clicks on Login button</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:52</date>
+  <millis>1548089692561</millis>
+  <sequence>194</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693090</millis>
+  <sequence>201</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/bddDemo_Login/input_Password_btn btn-default&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693091</millis>
+  <sequence>202</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user clicks on Login button</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693091</millis>
+  <sequence>203</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user clicks on Login button</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693092</millis>
+  <sequence>204</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user is redirected to paybill page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693093</millis>
+  <sequence>205</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user is redirected to paybill page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693093</millis>
+  <sequence>206</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user is redirected to paybill page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693094</millis>
+  <sequence>207</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters dayofpayment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693287</millis>
+  <sequence>219</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;11/01/2019&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693288</millis>
+  <sequence>220</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters dayofpayment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693288</millis>
+  <sequence>221</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters dayofpayment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693289</millis>
+  <sequence>222</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters amount</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:53</date>
+  <millis>1548089693448</millis>
+  <sequence>234</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;145&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_MakePayment/input_Amount_Amount&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:58</date>
+  <millis>1548089698449</millis>
+  <sequence>236</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:58</date>
+  <millis>1548089698449</millis>
+  <sequence>237</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters amount</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:58</date>
+  <millis>1548089698450</millis>
+  <sequence>238</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters amount</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:24:58</date>
+  <millis>1548089698450</millis>
+  <sequence>239</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters SwiftCode</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729496</millis>
+  <sequence>245</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //input[@id=&amp;apos;SwiftCode&amp;apos;]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729767</millis>
+  <sequence>246</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to set text &amp;apos;FD124&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;SwiftCode&amp;apos;]&amp;apos; not found)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="attachment">1548089729496.png</property>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729770</millis>
+  <sequence>248</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters SwiftCode FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to set text &amp;apos;FD124&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;SwiftCode&amp;apos;]&amp;apos; not found)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)\r\n\tat bddDemo.MakePaymentStepDef.user_enters_SwiftCode(MakePaymentStepDef.groovy:82)\r\n\tat \u273D.user enters SwiftCode(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:23)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to set text 'FD124' of object 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' located by 'By.xpath: //input[@id='SwiftCode']' not found)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>setText</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>execute</method>
+      <line>37</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>setText</method>
+      <line>950</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>bddDemo.MakePaymentStepDef</class>
+      <method>user_enters_SwiftCode</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>user enters SwiftCode</method>
+      <line>23</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729771</millis>
+  <sequence>249</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters SwiftCode</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729772</millis>
+  <sequence>250</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user clicks on make payment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729772</millis>
+  <sequence>251</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user clicks on make payment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729773</millis>
+  <sequence>252</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user clicks on make payment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729774</millis>
+  <sequence>253</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user is redirected to otp page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729774</millis>
+  <sequence>254</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user is redirected to otp page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729774</millis>
+  <sequence>255</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user is redirected to otp page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729775</millis>
+  <sequence>256</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters the otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729776</millis>
+  <sequence>257</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters the otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729776</millis>
+  <sequence>258</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters the otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729777</millis>
+  <sequence>259</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user clicks on submit otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729777</millis>
+  <sequence>260</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user clicks on submit otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729778</millis>
+  <sequence>261</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user clicks on submit otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729778</millis>
+  <sequence>262</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user should see the payment successful page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729779</millis>
+  <sequence>263</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user should see the payment successful page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729779</millis>
+  <sequence>264</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user should see the payment successful page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729816</millis>
+  <sequence>266</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO To make a payment with valid Payment details FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to set text &amp;apos;FD124&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;SwiftCode&amp;apos;]&amp;apos; not found)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)\r\n\tat bddDemo.MakePaymentStepDef.user_enters_SwiftCode(MakePaymentStepDef.groovy:82)\r\n\tat \u273D.user enters SwiftCode(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:23)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to set text 'FD124' of object 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' located by 'By.xpath: //input[@id='SwiftCode']' not found)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>setText</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>execute</method>
+      <line>37</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>setText</method>
+      <line>950</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>bddDemo.MakePaymentStepDef</class>
+      <method>user_enters_SwiftCode</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>user enters SwiftCode</method>
+      <line>23</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729817</millis>
+  <sequence>267</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO To make a payment with valid Payment details</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729850</millis>
+  <sequence>268</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO To make a payment with Invalid Payment details</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729851</millis>
+  <sequence>269</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:29</date>
+  <millis>1548089729852</millis>
+  <sequence>271</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:30</date>
+  <millis>1548089730751</millis>
+  <sequence>272</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:33</date>
+  <millis>1548089733323</millis>
+  <sequence>274</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 6bdf2ea27b4aefddcf8fb53ca13b3f1a</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">6bdf2ea27b4aefddcf8fb53ca13b3f1a</property>
+</record>
+<record>
+  <date>2019-01-21T22:25:33</date>
+  <millis>1548089733361</millis>
+  <sequence>275</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 71.0.3578.98</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 71.0.3578.98</property>
+</record>
+<record>
+  <date>2019-01-21T22:25:33</date>
+  <millis>1548089733361</millis>
+  <sequence>276</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-01-21T22:25:33</date>
+  <millis>1548089733362</millis>
+  <sequence>277</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-01-21T22:25:33</date>
+  <millis>1548089733362</millis>
+  <sequence>278</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-01-21T22:25:33</date>
+  <millis>1548089733363</millis>
+  <sequence>279</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:34</date>
+  <millis>1548089734763</millis>
+  <sequence>282</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://164.164.39.5:5002/Account/Login&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:34</date>
+  <millis>1548089734763</millis>
+  <sequence>283</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:34</date>
+  <millis>1548089734764</millis>
+  <sequence>284</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:34</date>
+  <millis>1548089734765</millis>
+  <sequence>285</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User enters username in BDD Demo </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:35</date>
+  <millis>1548089735004</millis>
+  <sequence>297</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_Login/input_Username_Username&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:35</date>
+  <millis>1548089735005</millis>
+  <sequence>298</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User enters username in BDD Demo </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:35</date>
+  <millis>1548089735005</millis>
+  <sequence>299</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User enters username in BDD Demo </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:35</date>
+  <millis>1548089735006</millis>
+  <sequence>300</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters password  in BDD Demo bdd</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:35</date>
+  <millis>1548089735223</millis>
+  <sequence>312</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;bdd&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_Login/input_Password_Password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:35</date>
+  <millis>1548089735223</millis>
+  <sequence>313</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters password  in BDD Demo bdd</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:35</date>
+  <millis>1548089735224</millis>
+  <sequence>314</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters password  in BDD Demo bdd</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:35</date>
+  <millis>1548089735224</millis>
+  <sequence>315</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user clicks on Login button</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:40</date>
+  <millis>1548089740226</millis>
+  <sequence>317</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:40</date>
+  <millis>1548089740382</millis>
+  <sequence>324</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/bddDemo_Login/input_Password_btn btn-default&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:40</date>
+  <millis>1548089740383</millis>
+  <sequence>325</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user clicks on Login button</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:40</date>
+  <millis>1548089740383</millis>
+  <sequence>326</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user clicks on Login button</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:40</date>
+  <millis>1548089740384</millis>
+  <sequence>327</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user is redirected to paybill page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:40</date>
+  <millis>1548089740385</millis>
+  <sequence>328</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user is redirected to paybill page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:40</date>
+  <millis>1548089740385</millis>
+  <sequence>329</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user is redirected to paybill page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:25:40</date>
+  <millis>1548089740386</millis>
+  <sequence>330</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters dayofpayment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:11</date>
+  <millis>1548089771728</millis>
+  <sequence>336</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //input[@id=&amp;apos;DayOfPayment&amp;apos;]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772094</millis>
+  <sequence>337</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to set text &amp;apos;11/01/2019&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;DayOfPayment&amp;apos;]&amp;apos; not found)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="attachment">1548089771728.png</property>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772096</millis>
+  <sequence>339</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters dayofpayment FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to set text &amp;apos;11/01/2019&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;DayOfPayment&amp;apos;]&amp;apos; not found)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)\r\n\tat bddDemo.MakePaymentStepDef.user_enters_dayofpayment(MakePaymentStepDef.groovy:62)\r\n\tat \u273D.user enters dayofpayment(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:44)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>setText</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>execute</method>
+      <line>37</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>setText</method>
+      <line>950</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>bddDemo.MakePaymentStepDef</class>
+      <method>user_enters_dayofpayment</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>user enters dayofpayment</method>
+      <line>44</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772097</millis>
+  <sequence>340</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters dayofpayment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772098</millis>
+  <sequence>341</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters amount</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772098</millis>
+  <sequence>342</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters amount</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772099</millis>
+  <sequence>343</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters amount</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772099</millis>
+  <sequence>344</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters SwiftCode</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772100</millis>
+  <sequence>345</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters SwiftCode</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772100</millis>
+  <sequence>346</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters SwiftCode</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772100</millis>
+  <sequence>347</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user clicks on make payment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772101</millis>
+  <sequence>348</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user clicks on make payment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772101</millis>
+  <sequence>349</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user clicks on make payment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772102</millis>
+  <sequence>350</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user is redirected to otp page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772102</millis>
+  <sequence>351</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user is redirected to otp page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772102</millis>
+  <sequence>352</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user is redirected to otp page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772103</millis>
+  <sequence>353</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters the otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772103</millis>
+  <sequence>354</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters the otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772104</millis>
+  <sequence>355</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters the otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772104</millis>
+  <sequence>356</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user clicks on submit otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772105</millis>
+  <sequence>357</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user clicks on submit otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772105</millis>
+  <sequence>358</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user clicks on submit otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772106</millis>
+  <sequence>359</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user should see the validation message</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772106</millis>
+  <sequence>360</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user should see the validation message</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772106</millis>
+  <sequence>361</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user should see the validation message</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772108</millis>
+  <sequence>363</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO To make a payment with Invalid Payment details FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to set text &amp;apos;11/01/2019&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;DayOfPayment&amp;apos;]&amp;apos; not found)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)\r\n\tat bddDemo.MakePaymentStepDef.user_enters_dayofpayment(MakePaymentStepDef.groovy:62)\r\n\tat \u273D.user enters dayofpayment(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:44)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>setText</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>execute</method>
+      <line>37</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>setText</method>
+      <line>950</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>bddDemo.MakePaymentStepDef</class>
+      <method>user_enters_dayofpayment</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>user enters dayofpayment</method>
+      <line>44</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772109</millis>
+  <sequence>364</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO To make a payment with Invalid Payment details</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772111</millis>
+  <sequence>365</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO To make a payment with Invalid Payment details</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772112</millis>
+  <sequence>366</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User is in BDD Demo Login Page http://localhost:60854/Account/Login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772112</millis>
+  <sequence>368</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:12</date>
+  <millis>1548089772939</millis>
+  <sequence>369</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:15</date>
+  <millis>1548089775525</millis>
+  <sequence>371</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = f86fa83ededac78e386155db19eb21e6</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">f86fa83ededac78e386155db19eb21e6</property>
+</record>
+<record>
+  <date>2019-01-21T22:26:15</date>
+  <millis>1548089775574</millis>
+  <sequence>372</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 71.0.3578.98</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 71.0.3578.98</property>
+</record>
+<record>
+  <date>2019-01-21T22:26:15</date>
+  <millis>1548089775574</millis>
+  <sequence>373</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-01-21T22:26:15</date>
+  <millis>1548089775575</millis>
+  <sequence>374</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-01-21T22:26:15</date>
+  <millis>1548089775576</millis>
+  <sequence>375</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-01-21T22:26:15</date>
+  <millis>1548089775576</millis>
+  <sequence>376</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777230</millis>
+  <sequence>379</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://localhost:60854/Account/Login&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777231</millis>
+  <sequence>380</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User is in BDD Demo Login Page http://localhost:60854/Account/Login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777231</millis>
+  <sequence>381</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User is in BDD Demo Login Page http://localhost:60854/Account/Login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777232</millis>
+  <sequence>382</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User enters username in BDD Demo Promantus</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777515</millis>
+  <sequence>394</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Promantus&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_Login/input_Username_Username&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777516</millis>
+  <sequence>395</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User enters username in BDD Demo Promantus</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777516</millis>
+  <sequence>396</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User enters username in BDD Demo Promantus</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777517</millis>
+  <sequence>397</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters password  in BDD Demo </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777729</millis>
+  <sequence>409</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;&amp;apos; is set on object &amp;apos;Object Repository/bddDemo_Login/input_Password_Password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777730</millis>
+  <sequence>410</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters password  in BDD Demo </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777730</millis>
+  <sequence>411</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters password  in BDD Demo </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:17</date>
+  <millis>1548089777731</millis>
+  <sequence>412</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user clicks on Login button</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:22</date>
+  <millis>1548089782732</millis>
+  <sequence>414</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:22</date>
+  <millis>1548089782851</millis>
+  <sequence>421</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/bddDemo_Login/input_Password_btn btn-default&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:22</date>
+  <millis>1548089782852</millis>
+  <sequence>422</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user clicks on Login button</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:22</date>
+  <millis>1548089782852</millis>
+  <sequence>423</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user clicks on Login button</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:22</date>
+  <millis>1548089782852</millis>
+  <sequence>424</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user is redirected to paybill page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:22</date>
+  <millis>1548089782853</millis>
+  <sequence>425</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user is redirected to paybill page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:22</date>
+  <millis>1548089782854</millis>
+  <sequence>426</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user is redirected to paybill page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:22</date>
+  <millis>1548089782854</millis>
+  <sequence>427</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters dayofpayment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:53</date>
+  <millis>1548089813769</millis>
+  <sequence>433</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //input[@id=&amp;apos;DayOfPayment&amp;apos;]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814141</millis>
+  <sequence>434</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to set text &amp;apos;11/01/2019&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;DayOfPayment&amp;apos;]&amp;apos; not found)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="attachment">1548089813769.png</property>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814142</millis>
+  <sequence>436</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters dayofpayment FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to set text &amp;apos;11/01/2019&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;DayOfPayment&amp;apos;]&amp;apos; not found)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)\r\n\tat bddDemo.MakePaymentStepDef.user_enters_dayofpayment(MakePaymentStepDef.groovy:62)\r\n\tat \u273D.user enters dayofpayment(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:44)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>setText</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>execute</method>
+      <line>37</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>setText</method>
+      <line>950</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>bddDemo.MakePaymentStepDef</class>
+      <method>user_enters_dayofpayment</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>user enters dayofpayment</method>
+      <line>44</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814143</millis>
+  <sequence>437</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters dayofpayment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814144</millis>
+  <sequence>438</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters amount</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814144</millis>
+  <sequence>439</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters amount</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814145</millis>
+  <sequence>440</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters amount</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814145</millis>
+  <sequence>441</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters SwiftCode</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814150</millis>
+  <sequence>442</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters SwiftCode</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814151</millis>
+  <sequence>443</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters SwiftCode</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814151</millis>
+  <sequence>444</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user clicks on make payment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814152</millis>
+  <sequence>445</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user clicks on make payment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814152</millis>
+  <sequence>446</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user clicks on make payment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814153</millis>
+  <sequence>447</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user is redirected to otp page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814153</millis>
+  <sequence>448</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user is redirected to otp page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814154</millis>
+  <sequence>449</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user is redirected to otp page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814155</millis>
+  <sequence>450</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user enters the otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814155</millis>
+  <sequence>451</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user enters the otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814155</millis>
+  <sequence>452</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user enters the otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814156</millis>
+  <sequence>453</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user clicks on submit otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814156</millis>
+  <sequence>454</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user clicks on submit otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814157</millis>
+  <sequence>455</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user clicks on submit otp</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814157</millis>
+  <sequence>456</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user should see the validation message</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814158</millis>
+  <sequence>457</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user should see the validation message</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814158</millis>
+  <sequence>458</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user should see the validation message</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814159</millis>
+  <sequence>460</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO To make a payment with Invalid Payment details FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to set text &amp;apos;11/01/2019&amp;apos; of object &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;DayOfPayment&amp;apos;]&amp;apos; not found)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)\r\n\tat bddDemo.MakePaymentStepDef.user_enters_dayofpayment(MakePaymentStepDef.groovy:62)\r\n\tat \u273D.user enters dayofpayment(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:44)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>setText</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>execute</method>
+      <line>37</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>setText</method>
+      <line>950</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>bddDemo.MakePaymentStepDef</class>
+      <method>user_enters_dayofpayment</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>user enters dayofpayment</method>
+      <line>44</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814160</millis>
+  <sequence>461</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO To make a payment with Invalid Payment details</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814183</millis>
+  <sequence>462</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file &amp;apos;Include/features/MakePayment.feature&amp;apos; was failed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814184</millis>
+  <sequence>463</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file &amp;apos;Include/features/MakePayment.feature&amp;apos; was failed)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814185</millis>
+  <sequence>465</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>runFeatureFile(\&amp;quot;Include/features/MakePayment.feature\&amp;quot;) FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file &amp;apos;Include/features/MakePayment.feature&amp;apos; was failed)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$2.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$1.call(Unknown Source)\r\n\tat TC_AddSwiftCode.run(TC_AddSwiftCode:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1548089553948.run(TempTestSuite1548089553948.groovy:36)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/MakePayment.feature' was failed)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runFeatureFile</method>
+      <line>46</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$2</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runFeatureFile</method>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC_AddSwiftCode</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1548089553948</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814185</millis>
+  <sequence>466</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/MakePayment.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814202</millis>
+  <sequence>468</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file &amp;apos;Include/features/MakePayment.feature&amp;apos; was failed)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$2.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$1.call(Unknown Source)\r\n\tat TC_AddSwiftCode.run(TC_AddSwiftCode:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1548089553948.run(TempTestSuite1548089553948.groovy:36)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/MakePayment.feature' was failed)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runFeatureFile</method>
+      <line>46</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$2</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runFeatureFile</method>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC_AddSwiftCode</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1548089553948</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814203</millis>
+  <sequence>469</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814207</millis>
+  <sequence>470</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails</property>
+  <property name="source">C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Test Cases\\FunctionalTestCases\\FY19\\Sprint2\\TC_AddCaptchaDetails.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814662</millis>
+  <sequence>472</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814663</millis>
+  <sequence>473</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814663</millis>
+  <sequence>474</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:54</date>
+  <millis>1548089814663</millis>
+  <sequence>475</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-21T22:26:56</date>
+  <millis>1548089816086</millis>
+  <sequence>476</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Release-1.0/BVT</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

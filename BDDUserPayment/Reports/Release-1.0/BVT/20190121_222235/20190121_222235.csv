@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BVT,IE 11,,2019-01-21 22:23:04,2019-01-21 22:25:44,2m - 39.664s,FAILED
+,,,,,,
+Test Cases/TC_SmokeTest,IE 11,,2019-01-21 22:23:05,2019-01-21 22:24:24,1m - 18.828s,FAILED
+runWithCucumberRunner(common.CucumberPAFrunner),IE 11,,2019-01-21 22:23:05,2019-01-21 22:24:24,1m - 18.135s,FAILED
+,,,,,,
+Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode,IE 11,,2019-01-21 22:24:24,2019-01-21 22:25:43,1m - 19.478s,FAILED
+"runFeatureFile(""Include/features/MakePayment.feature"")",IE 11,,2019-01-21 22:24:24,2019-01-21 22:25:43,1m - 19.099s,FAILED
+,,,,,,
+Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails,IE 11,,2019-01-21 22:25:43,2019-01-21 22:25:43,0.257s,PASSED
+return null,IE 11,,2019-01-21 22:25:43,2019-01-21 22:25:43,0.001s,PASSED

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.783812">
+<testcase classname="Title of your feature" name="To make a payment with valid Payment details" time="23.783812">
+<system-out><![CDATA[Given User is in BDD Demo Login Page http://localhost:60854/Account/Login...passed
+And User enters username in BDD Demo Promantus..............................passed
+And user enters password  in BDD Demo bdd...................................passed
+And user clicks on Login button.............................................passed
+And user is redirected to paybill page......................................passed
+And user enters dayofpayment................................................passed
+And user enters amount......................................................passed
+And user enters SwiftCode...................................................passed
+When user clicks on make payment............................................passed
+And user is redirected to otp page..........................................passed
+And user enters the otp.....................................................passed
+And user clicks on submit otp...............................................passed
+Then user should see the payment successful page............................passed
+]]></system-out>
+</testcase>
+</testsuite>

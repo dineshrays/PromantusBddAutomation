@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BVT,Firefox 64.0,,2019-01-21 22:22:44,2019-01-21 22:27:16,4m - 32.279s,FAILED
+,,,,,,
+Test Cases/TC_SmokeTest,Firefox 64.0,,2019-01-21 22:22:45,2019-01-21 22:24:56,2m - 11.055s,FAILED
+runWithCucumberRunner(common.CucumberPAFrunner),Firefox 64.0,,2019-01-21 22:22:48,2019-01-21 22:24:56,2m - 8.145s,FAILED
+,,,,,,
+Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode,Firefox 64.0,,2019-01-21 22:24:56,2019-01-21 22:27:13,2m - 17.165s,FAILED
+"runFeatureFile(""Include/features/MakePayment.feature"")",Firefox 64.0,,2019-01-21 22:24:56,2019-01-21 22:27:13,2m - 16.868s,FAILED
+,,,,,,
+Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails,Firefox 64.0,,2019-01-21 22:27:13,2019-01-21 22:27:14,0.437s,PASSED
+return null,Firefox 64.0,,2019-01-21 22:27:14,2019-01-21 22:27:14,0.001s,PASSED

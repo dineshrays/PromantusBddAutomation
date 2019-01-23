@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RegressionTest,Firefox 64.0,,2019-01-21 22:22:45,2019-01-21 22:24:02,1m - 17.663s,PASSED
+,,,,,,
+Test Cases/TC_RegressionTest,Firefox 64.0,,2019-01-21 22:22:46,2019-01-21 22:24:02,1m - 16.328s,PASSED
+runWithCucumberRunner(common.CucumberPAFrunner1),Firefox 64.0,,2019-01-21 22:22:49,2019-01-21 22:24:02,1m - 13.842s,PASSED

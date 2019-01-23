@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BVT" time="116" tests="3" failures="0" errors="0">
+   <testsuite name="BVT" tests="3" failures="0" errors="0" time="116" timestamp="2019-01-22 17:19:51" hostname="Promantus Inc - G10PROLT021" id="Test Suites/Release-1.0/BVT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Reports\\Release-1.0\\BVT\\20190122_171944"/>
+         <property name="logFiles" value="C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Reports\\Release-1.0\\BVT\\20190122_171944\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="392bbe1e70d2e8b33574a6e7fa5685ba"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_SmokeTest" classname="Test Cases/TC_SmokeTest" status="PASSED">
+         <system-out><![CDATA[2019-01-22 17:19:52 - [TEST_CASE][PASSED] - Test Cases/TC_SmokeTest: Test Cases/TC_SmokeTest
+
+2019-01-22 17:19:52 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.CucumberPAFrunner): Run with 'common.CucumberPAFrunner' was passed
+
+2019-01-22 17:19:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 17:19:54 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-22 17:19:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 17:19:59 - [MESSAGE][PASSED] - Navigate to 'http://164.164.39.5:5002/Account/Login' successfully
+
+2019-01-22 17:20:00 - [MESSAGE][PASSED] - Text 'Promantus' is set on object 'Object Repository/bddDemo_Login/input_Username_Username'
+
+2019-01-22 17:20:00 - [MESSAGE][PASSED] - Text 'bdd' is set on object 'Object Repository/bddDemo_Login/input_Password_Password'
+
+2019-01-22 17:20:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_Login/input_Password_btn btn-default' is clicked on
+
+2019-01-22 17:20:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:20:10 - [MESSAGE][PASSED] - Text 'PayBill' is present on page 
+
+2019-01-22 17:20:11 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-22 17:20:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 17:20:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 17:20:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60854/Account/Login' successfully
+
+2019-01-22 17:20:15 - [MESSAGE][PASSED] - Text 'Promantus' is set on object 'Object Repository/bddDemo_Login/input_Username_Username'
+
+2019-01-22 17:20:16 - [MESSAGE][PASSED] - Text 'bdd' is set on object 'Object Repository/bddDemo_Login/input_Password_Password'
+
+2019-01-22 17:20:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_Login/input_Password_btn btn-default' is clicked on
+
+2019-01-22 17:20:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:20:26 - [MESSAGE][PASSED] - Text '11/01/2019' is set on object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen'
+
+2019-01-22 17:20:27 - [MESSAGE][PASSED] - Text '145' is set on object 'Object Repository/bddDemo_MakePayment/input_Amount_Amount'
+
+2019-01-22 17:20:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:20:32 - [MESSAGE][PASSED] - Text 'FD124' is set on object 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode'
+
+2019-01-22 17:20:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_MakePayment/input_SwiftCode_btn btn-defaul' is clicked on
+
+2019-01-22 17:20:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:20:42 - [MESSAGE][PASSED] - Text '32728' is set on object 'Object Repository/bddDemo_EnterOTP/input_OTP_OTP'
+
+2019-01-22 17:20:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_EnterOTP/input_OTP_btn btn-default' is clicked on
+
+2019-01-22 17:20:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:20:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:20:58 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-22 17:20:59 - [MESSAGE][PASSED] - Run with 'common.CucumberPAFrunner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode" classname="Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode" status="PASSED">
+         <system-out><![CDATA[2019-01-22 17:20:59 - [TEST_CASE][PASSED] - Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode: Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode
+
+2019-01-22 17:20:59 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/MakePayment.feature"): Feature file: 'Include/features/MakePayment.feature' was passed
+
+2019-01-22 17:20:59 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/MakePayment.feature' and extract report to folder: 'C:\Users\Promantus Inc\Katalon Studio\BDDUserPayment\Reports\Release-1.0\BVT\20190122_171944/cucumber_report/1548157859290'...
+
+2019-01-22 17:20:59 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To make a payment with valid Payment details: SCENARIO To make a payment with valid Payment details
+
+2019-01-22 17:20:59 - [TEST_STEP][PASSED] - User is in BDD Demo Login Page http://localhost:60854/Account/Login: User is in BDD Demo Login Page http://localhost:60854/Account/Login
+
+2019-01-22 17:20:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 17:21:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 17:21:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60854/Account/Login' successfully
+
+2019-01-22 17:21:03 - [MESSAGE][PASSED] - User is in BDD Demo Login Page http://localhost:60854/Account/Login
+
+2019-01-22 17:21:03 - [TEST_STEP][PASSED] - User enters username in BDD Demo Promantus: User enters username in BDD Demo Promantus
+
+2019-01-22 17:21:03 - [MESSAGE][PASSED] - Text 'Promantus' is set on object 'Object Repository/bddDemo_Login/input_Username_Username'
+
+2019-01-22 17:21:03 - [MESSAGE][PASSED] - User enters username in BDD Demo Promantus
+
+2019-01-22 17:21:03 - [TEST_STEP][PASSED] - user enters password  in BDD Demo bdd: user enters password  in BDD Demo bdd
+
+2019-01-22 17:21:04 - [MESSAGE][PASSED] - Text 'bdd' is set on object 'Object Repository/bddDemo_Login/input_Password_Password'
+
+2019-01-22 17:21:04 - [MESSAGE][PASSED] - user enters password  in BDD Demo bdd
+
+2019-01-22 17:21:04 - [TEST_STEP][PASSED] - user clicks on Login button: user clicks on Login button
+
+2019-01-22 17:21:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_Login/input_Password_btn btn-default' is clicked on
+
+2019-01-22 17:21:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:21:14 - [MESSAGE][PASSED] - user clicks on Login button
+
+2019-01-22 17:21:14 - [TEST_STEP][PASSED] - user is redirected to paybill page: user is redirected to paybill page
+
+2019-01-22 17:21:14 - [MESSAGE][PASSED] - user is redirected to paybill page
+
+2019-01-22 17:21:14 - [TEST_STEP][PASSED] - user enters dayofpayment: user enters dayofpayment
+
+2019-01-22 17:21:14 - [MESSAGE][PASSED] - Text '11/01/2019' is set on object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen'
+
+2019-01-22 17:21:14 - [MESSAGE][PASSED] - user enters dayofpayment
+
+2019-01-22 17:21:14 - [TEST_STEP][PASSED] - user enters amount: user enters amount
+
+2019-01-22 17:21:14 - [MESSAGE][PASSED] - Text '145' is set on object 'Object Repository/bddDemo_MakePayment/input_Amount_Amount'
+
+2019-01-22 17:21:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:21:19 - [MESSAGE][PASSED] - user enters amount
+
+2019-01-22 17:21:19 - [TEST_STEP][PASSED] - user enters SwiftCode: user enters SwiftCode
+
+2019-01-22 17:21:20 - [MESSAGE][PASSED] - Text 'FD124' is set on object 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode'
+
+2019-01-22 17:21:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:21:25 - [MESSAGE][PASSED] - user enters SwiftCode
+
+2019-01-22 17:21:25 - [TEST_STEP][PASSED] - user clicks on make payment: user clicks on make payment
+
+2019-01-22 17:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_MakePayment/input_SwiftCode_btn btn-defaul' is clicked on
+
+2019-01-22 17:21:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:21:30 - [MESSAGE][PASSED] - user clicks on make payment
+
+2019-01-22 17:21:30 - [TEST_STEP][PASSED] - user is redirected to otp page: user is redirected to otp page
+
+2019-01-22 17:21:30 - [MESSAGE][PASSED] - user is redirected to otp page
+
+2019-01-22 17:21:30 - [TEST_STEP][PASSED] - user enters the otp: user enters the otp
+
+2019-01-22 17:21:30 - [MESSAGE][PASSED] - Text '32728' is set on object 'Object Repository/bddDemo_EnterOTP/input_OTP_OTP'
+
+2019-01-22 17:21:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:21:35 - [MESSAGE][PASSED] - user enters the otp
+
+2019-01-22 17:21:35 - [TEST_STEP][PASSED] - user clicks on submit otp: user clicks on submit otp
+
+2019-01-22 17:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_EnterOTP/input_OTP_btn btn-default' is clicked on
+
+2019-01-22 17:21:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:21:40 - [MESSAGE][PASSED] - user clicks on submit otp
+
+2019-01-22 17:21:40 - [TEST_STEP][PASSED] - user should see the payment successful page: user should see the payment successful page
+
+2019-01-22 17:21:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 17:21:47 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-22 17:21:47 - [MESSAGE][PASSED] - user should see the payment successful page
+
+2019-01-22 17:21:47 - [MESSAGE][PASSED] - Feature file: 'Include/features/MakePayment.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails" classname="Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails" status="PASSED">
+         <system-out><![CDATA[2019-01-22 17:21:47 - [TEST_CASE][PASSED] - Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails: Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails
+
+2019-01-22 17:21:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-22 17:19:51 - [TEST_SUITE][PASSED] - BVT: Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

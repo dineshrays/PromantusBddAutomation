@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="134.057027">
+<testcase classname="Title of your feature" name="To make a payment with valid Payment details" time="49.750608">
+<failure message="com.kms.katalon.core.exception.StepFailedException: Unable to set text 'FD124' of object 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' located by 'By.xpath: //input[@id='SwiftCode']' not found)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#13;&#10;&#9;at bddDemo.MakePaymentStepDef.user_enters_SwiftCode(MakePaymentStepDef.groovy:82)&#13;&#10;&#9;at ✽.user enters SwiftCode(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:23)&#13;&#10;"><![CDATA[Given User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login.passed
+And User enters username in BDD Demo Promantus..............................passed
+And user enters password  in BDD Demo bdd...................................passed
+And user clicks on Login button.............................................passed
+And user is redirected to paybill page......................................passed
+And user enters dayofpayment................................................passed
+And user enters amount......................................................passed
+And user enters SwiftCode...................................................failed
+When user clicks on make payment............................................skipped
+And user is redirected to otp page..........................................skipped
+And user enters the otp.....................................................skipped
+And user clicks on submit otp...............................................skipped
+Then user should see the payment successful page............................skipped
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'FD124' of object 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_SwiftCode_SwiftCode' located by 'By.xpath: //input[@id='SwiftCode']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.MakePaymentStepDef.user_enters_SwiftCode(MakePaymentStepDef.groovy:82)
+	at ✽.user enters SwiftCode(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:23)
+]]></failure>
+</testcase>
+<testcase classname="Title of your feature" name="To make a payment with Invalid Payment details" time="42.258479">
+<failure message="com.kms.katalon.core.exception.StepFailedException: Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#13;&#10;&#9;at bddDemo.MakePaymentStepDef.user_enters_dayofpayment(MakePaymentStepDef.groovy:62)&#13;&#10;&#9;at ✽.user enters dayofpayment(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:44)&#13;&#10;"><![CDATA[Given User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login.passed
+And User enters username in BDD Demo .......................................passed
+And user enters password  in BDD Demo bdd...................................passed
+And user clicks on Login button.............................................passed
+And user is redirected to paybill page......................................passed
+And user enters dayofpayment................................................failed
+And user enters amount......................................................skipped
+And user enters SwiftCode...................................................skipped
+When user clicks on make payment............................................skipped
+And user is redirected to otp page..........................................skipped
+And user enters the otp.....................................................skipped
+And user clicks on submit otp...............................................skipped
+Then user should see the validation message.................................undefined
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.MakePaymentStepDef.user_enters_dayofpayment(MakePaymentStepDef.groovy:62)
+	at ✽.user enters dayofpayment(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:44)
+]]></failure>
+</testcase>
+<testcase classname="Title of your feature" name="To make a payment with Invalid Payment details 2" time="42.04794">
+<failure message="com.kms.katalon.core.exception.StepFailedException: Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#13;&#10;&#9;at bddDemo.MakePaymentStepDef.user_enters_dayofpayment(MakePaymentStepDef.groovy:62)&#13;&#10;&#9;at ✽.user enters dayofpayment(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:44)&#13;&#10;"><![CDATA[Given User is in BDD Demo Login Page http://localhost:60854/Account/Login...passed
+And User enters username in BDD Demo Promantus..............................passed
+And user enters password  in BDD Demo ......................................passed
+And user clicks on Login button.............................................passed
+And user is redirected to paybill page......................................passed
+And user enters dayofpayment................................................failed
+And user enters amount......................................................skipped
+And user enters SwiftCode...................................................skipped
+When user clicks on make payment............................................skipped
+And user is redirected to otp page..........................................skipped
+And user enters the otp.....................................................skipped
+And user clicks on submit otp...............................................skipped
+Then user should see the validation message.................................undefined
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.MakePaymentStepDef.user_enters_dayofpayment(MakePaymentStepDef.groovy:62)
+	at ✽.user enters dayofpayment(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:44)
+]]></failure>
+</testcase>
+</testsuite>

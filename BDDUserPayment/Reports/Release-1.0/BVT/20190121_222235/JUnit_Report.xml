@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BVT" time="159" tests="1" failures="2" errors="0">
+   <testsuite name="BVT" tests="1" failures="2" errors="0" time="159" timestamp="2019-01-21 22:23:04" hostname="Promantus Inc - G10PROLT021" id="Test Suites/Release-1.0/BVT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Reports\\Release-1.0\\BVT\\20190121_222235"/>
+         <property name="logFiles" value="C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Reports\\Release-1.0\\BVT\\20190121_222235\\execution0.log, C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Reports\\Release-1.0\\BVT\\20190121_222235\\IEDriverServer.log"/>
+         <property name="attachments" value="C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Reports\\Release-1.0\\BVT\\20190121_222235\\1548089743344.png"/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="35e35b03-e48c-4fda-abeb-4ea3d48c2075"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_SmokeTest" classname="Test Cases/TC_SmokeTest" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_SmokeTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35286/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f66b947b-38b5-41fc-a6d8-c22fd2a0f5da
+*** Element info: {Using=xpath, value=//input[@id='Username']}), Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32158/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 01416d5d-a273-4afc-b9db-9f64e709b253
+*** Element info: {Using=xpath, value=//input[@id='Username']})]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SmokeTest.run(TC_SmokeTest:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-21 22:23:05 - [TEST_CASE][FAILED] - Test Cases/TC_SmokeTest: Test Cases/TC_SmokeTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35286/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f66b947b-38b5-41fc-a6d8-c22fd2a0f5da
+*** Element info: {Using=xpath, value=//input[@id='Username']}), Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32158/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 01416d5d-a273-4afc-b9db-9f64e709b253
+*** Element info: {Using=xpath, value=//input[@id='Username']})]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SmokeTest.run(TC_SmokeTest:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)
+
+
+2019-01-21 22:23:05 - [TEST_STEP][FAILED] - runWithCucumberRunner(common.CucumberPAFrunner): runWithCucumberRunner(common.CucumberPAFrunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35286/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f66b947b-38b5-41fc-a6d8-c22fd2a0f5da
+*** Element info: {Using=xpath, value=//input[@id='Username']}), Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32158/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 01416d5d-a273-4afc-b9db-9f64e709b253
+*** Element info: {Using=xpath, value=//input[@id='Username']})]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SmokeTest.run(TC_SmokeTest:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)
+
+
+2019-01-21 22:23:08 - [MESSAGE][INFO] - Starting 'IE' driver
+
+2019-01-21 22:23:08 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-21 22:24:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-21 22:24:15 - [MESSAGE][PASSED] - Navigate to 'http://164.164.39.5:5002/Account/Login' successfully
+
+2019-01-21 22:24:19 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-01-21 22:24:19 - [MESSAGE][FAILED] - Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35286/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f66b947b-38b5-41fc-a6d8-c22fd2a0f5da
+*** Element info: {Using=xpath, value=//input[@id='Username']})
+
+2019-01-21 22:24:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-21 22:24:19 - [MESSAGE][INFO] - Starting 'IE' driver
+
+2019-01-21 22:24:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-21 22:24:22 - [MESSAGE][PASSED] - Navigate to 'http://164.164.39.5:5002/Account/Login' successfully
+
+2019-01-21 22:24:23 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-01-21 22:24:23 - [MESSAGE][FAILED] - Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32158/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 01416d5d-a273-4afc-b9db-9f64e709b253
+*** Element info: {Using=xpath, value=//input[@id='Username']})
+
+2019-01-21 22:24:24 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35286/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f66b947b-38b5-41fc-a6d8-c22fd2a0f5da
+*** Element info: {Using=xpath, value=//input[@id='Username']}), Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32158/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 01416d5d-a273-4afc-b9db-9f64e709b253
+*** Element info: {Using=xpath, value=//input[@id='Username']})]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+
+2019-01-21 22:24:24 - [MESSAGE][FAILED] - runWithCucumberRunner(common.CucumberPAFrunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35286/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f66b947b-38b5-41fc-a6d8-c22fd2a0f5da
+*** Element info: {Using=xpath, value=//input[@id='Username']}), Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32158/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 01416d5d-a273-4afc-b9db-9f64e709b253
+*** Element info: {Using=xpath, value=//input[@id='Username']})]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SmokeTest.run(TC_SmokeTest:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-21 22:23:05 - [TEST_CASE][FAILED] - Test Cases/TC_SmokeTest: Test Cases/TC_SmokeTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35286/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f66b947b-38b5-41fc-a6d8-c22fd2a0f5da
+*** Element info: {Using=xpath, value=//input[@id='Username']}), Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32158/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 01416d5d-a273-4afc-b9db-9f64e709b253
+*** Element info: {Using=xpath, value=//input[@id='Username']})]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SmokeTest.run(TC_SmokeTest:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode" classname="Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode" status="FAILED">
+         <failure type="FAILED" message="Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/MakePayment.feature' was failed)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$2.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$1.call(Unknown Source)
+	at TC_AddSwiftCode.run(TC_AddSwiftCode:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-21 22:24:24 - [TEST_CASE][FAILED] - Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode: Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/MakePayment.feature' was failed)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$2.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$1.call(Unknown Source)
+	at TC_AddSwiftCode.run(TC_AddSwiftCode:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)
+
+
+2019-01-21 22:24:24 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/MakePayment.feature"): runFeatureFile("Include/features/MakePayment.feature") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/MakePayment.feature' was failed)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$2.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$1.call(Unknown Source)
+	at TC_AddSwiftCode.run(TC_AddSwiftCode:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)
+
+
+2019-01-21 22:24:24 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/MakePayment.feature' and extract report to folder: 'C:\Users\Promantus Inc\Katalon Studio\BDDUserPayment\Reports\Release-1.0\BVT\20190121_222235/cucumber_report/1548089664440'...
+
+2019-01-21 22:24:24 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO To make a payment with valid Payment details: SCENARIO To make a payment with valid Payment details FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22736/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 9c3cd0ff-8012-46f7-aa06-cf97e288b9b8
+*** Element info: {Using=xpath, value=//input[@id='Username']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.LoginStepDef.user_enters_username_in_BDD_Demo(LoginStepDef.groovy:64)
+	at ✽.User enters username in BDD Demo Promantus(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:17)
+
+
+2019-01-21 22:24:24 - [TEST_STEP][PASSED] - User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login: User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login
+
+2019-01-21 22:24:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-21 22:24:25 - [MESSAGE][INFO] - Starting 'IE' driver
+
+2019-01-21 22:24:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-21 22:24:27 - [MESSAGE][PASSED] - Navigate to 'http://164.164.39.5:5002/Account/Login' successfully
+
+2019-01-21 22:24:27 - [MESSAGE][PASSED] - User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login
+
+2019-01-21 22:24:27 - [TEST_STEP][FAILED] - User enters username in BDD Demo Promantus: User enters username in BDD Demo Promantus FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22736/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 9c3cd0ff-8012-46f7-aa06-cf97e288b9b8
+*** Element info: {Using=xpath, value=//input[@id='Username']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.LoginStepDef.user_enters_username_in_BDD_Demo(LoginStepDef.groovy:64)
+	at ✽.User enters username in BDD Demo Promantus(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:17)
+
+
+2019-01-21 22:24:28 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-01-21 22:24:28 - [MESSAGE][FAILED] - Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22736/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 9c3cd0ff-8012-46f7-aa06-cf97e288b9b8
+*** Element info: {Using=xpath, value=//input[@id='Username']})
+
+2019-01-21 22:24:28 - [MESSAGE][FAILED] - User enters username in BDD Demo Promantus FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22736/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 9c3cd0ff-8012-46f7-aa06-cf97e288b9b8
+*** Element info: {Using=xpath, value=//input[@id='Username']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.LoginStepDef.user_enters_username_in_BDD_Demo(LoginStepDef.groovy:64)
+	at ✽.User enters username in BDD Demo Promantus(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:17)
+
+
+2019-01-21 22:24:28 - [TEST_STEP][NOT_RUN] - user enters password  in BDD Demo bdd: user enters password  in BDD Demo bdd
+
+2019-01-21 22:24:28 - [MESSAGE][NOT_RUN] - user enters password  in BDD Demo bdd
+
+2019-01-21 22:24:28 - [TEST_STEP][NOT_RUN] - user clicks on Login button: user clicks on Login button
+
+2019-01-21 22:24:28 - [MESSAGE][NOT_RUN] - user clicks on Login button
+
+2019-01-21 22:24:28 - [TEST_STEP][NOT_RUN] - user is redirected to paybill page: user is redirected to paybill page
+
+2019-01-21 22:24:28 - [MESSAGE][NOT_RUN] - user is redirected to paybill page
+
+2019-01-21 22:24:28 - [TEST_STEP][NOT_RUN] - user enters dayofpayment: user enters dayofpayment
+
+2019-01-21 22:24:28 - [MESSAGE][NOT_RUN] - user enters dayofpayment
+
+2019-01-21 22:24:28 - [TEST_STEP][NOT_RUN] - user enters amount: user enters amount
+
+2019-01-21 22:24:28 - [MESSAGE][NOT_RUN] - user enters amount
+
+2019-01-21 22:24:28 - [TEST_STEP][NOT_RUN] - user enters SwiftCode: user enters SwiftCode
+
+2019-01-21 22:24:28 - [MESSAGE][NOT_RUN] - user enters SwiftCode
+
+2019-01-21 22:24:28 - [TEST_STEP][NOT_RUN] - user clicks on make payment: user clicks on make payment
+
+2019-01-21 22:24:28 - [MESSAGE][NOT_RUN] - user clicks on make payment
+
+2019-01-21 22:24:28 - [TEST_STEP][NOT_RUN] - user is redirected to otp page: user is redirected to otp page
+
+2019-01-21 22:24:28 - [MESSAGE][NOT_RUN] - user is redirected to otp page
+
+2019-01-21 22:24:28 - [TEST_STEP][NOT_RUN] - user enters the otp: user enters the otp
+
+2019-01-21 22:24:28 - [MESSAGE][NOT_RUN] - user enters the otp
+
+2019-01-21 22:24:28 - [TEST_STEP][NOT_RUN] - user clicks on submit otp: user clicks on submit otp
+
+2019-01-21 22:24:28 - [MESSAGE][NOT_RUN] - user clicks on submit otp
+
+2019-01-21 22:24:28 - [TEST_STEP][NOT_RUN] - user should see the payment successful page: user should see the payment successful page
+
+2019-01-21 22:24:28 - [MESSAGE][NOT_RUN] - user should see the payment successful page
+
+2019-01-21 22:24:30 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO To make a payment with Invalid Payment details: SCENARIO To make a payment with Invalid Payment details FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:34084/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 3d3b016b-88d4-4293-a49e-0e2baf05ad25
+*** Element info: {Using=xpath, value=//input[@id='Username']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.LoginStepDef.user_enters_username_in_BDD_Demo(LoginStepDef.groovy:64)
+	at ✽.User enters username in BDD Demo (C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:40)
+
+
+2019-01-21 22:24:30 - [TEST_STEP][PASSED] - User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login: User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login
+
+2019-01-21 22:24:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-21 22:24:30 - [MESSAGE][INFO] - Starting 'IE' driver
+
+2019-01-21 22:24:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-21 22:24:33 - [MESSAGE][PASSED] - Navigate to 'http://164.164.39.5:5002/Account/Login' successfully
+
+2019-01-21 22:24:33 - [MESSAGE][PASSED] - User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login
+
+2019-01-21 22:24:33 - [TEST_STEP][FAILED] - User enters username in BDD Demo : User enters username in BDD Demo  FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:34084/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 3d3b016b-88d4-4293-a49e-0e2baf05ad25
+*** Element info: {Using=xpath, value=//input[@id='Username']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.LoginStepDef.user_enters_username_in_BDD_Demo(LoginStepDef.groovy:64)
+	at ✽.User enters username in BDD Demo (C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:40)
+
+
+2019-01-21 22:24:34 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-01-21 22:24:34 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:34084/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 3d3b016b-88d4-4293-a49e-0e2baf05ad25
+*** Element info: {Using=xpath, value=//input[@id='Username']})
+
+2019-01-21 22:24:34 - [MESSAGE][FAILED] - User enters username in BDD Demo  FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:34084/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 3d3b016b-88d4-4293-a49e-0e2baf05ad25
+*** Element info: {Using=xpath, value=//input[@id='Username']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.LoginStepDef.user_enters_username_in_BDD_Demo(LoginStepDef.groovy:64)
+	at ✽.User enters username in BDD Demo (C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:40)
+
+
+2019-01-21 22:24:34 - [TEST_STEP][NOT_RUN] - user enters password  in BDD Demo bdd: user enters password  in BDD Demo bdd
+
+2019-01-21 22:24:34 - [MESSAGE][NOT_RUN] - user enters password  in BDD Demo bdd
+
+2019-01-21 22:24:34 - [TEST_STEP][NOT_RUN] - user clicks on Login button: user clicks on Login button
+
+2019-01-21 22:24:34 - [MESSAGE][NOT_RUN] - user clicks on Login button
+
+2019-01-21 22:24:34 - [TEST_STEP][NOT_RUN] - user is redirected to paybill page: user is redirected to paybill page
+
+2019-01-21 22:24:34 - [MESSAGE][NOT_RUN] - user is redirected to paybill page
+
+2019-01-21 22:24:34 - [TEST_STEP][NOT_RUN] - user enters dayofpayment: user enters dayofpayment
+
+2019-01-21 22:24:34 - [MESSAGE][NOT_RUN] - user enters dayofpayment
+
+2019-01-21 22:24:34 - [TEST_STEP][NOT_RUN] - user enters amount: user enters amount
+
+2019-01-21 22:24:34 - [MESSAGE][NOT_RUN] - user enters amount
+
+2019-01-21 22:24:34 - [TEST_STEP][NOT_RUN] - user enters SwiftCode: user enters SwiftCode
+
+2019-01-21 22:24:34 - [MESSAGE][NOT_RUN] - user enters SwiftCode
+
+2019-01-21 22:24:34 - [TEST_STEP][NOT_RUN] - user clicks on make payment: user clicks on make payment
+
+2019-01-21 22:24:34 - [MESSAGE][NOT_RUN] - user clicks on make payment
+
+2019-01-21 22:24:34 - [TEST_STEP][NOT_RUN] - user is redirected to otp page: user is redirected to otp page
+
+2019-01-21 22:24:34 - [MESSAGE][NOT_RUN] - user is redirected to otp page
+
+2019-01-21 22:24:34 - [TEST_STEP][NOT_RUN] - user enters the otp: user enters the otp
+
+2019-01-21 22:24:34 - [MESSAGE][NOT_RUN] - user enters the otp
+
+2019-01-21 22:24:34 - [TEST_STEP][NOT_RUN] - user clicks on submit otp: user clicks on submit otp
+
+2019-01-21 22:24:34 - [MESSAGE][NOT_RUN] - user clicks on submit otp
+
+2019-01-21 22:24:34 - [TEST_STEP][NOT_RUN] - user should see the validation message: user should see the validation message
+
+2019-01-21 22:24:34 - [MESSAGE][NOT_RUN] - user should see the validation message
+
+2019-01-21 22:24:34 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO To make a payment with Invalid Payment details: SCENARIO To make a payment with Invalid Payment details FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.MakePaymentStepDef.user_enters_dayofpayment(MakePaymentStepDef.groovy:62)
+	at ✽.user enters dayofpayment(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:44)
+
+
+2019-01-21 22:24:34 - [TEST_STEP][PASSED] - User is in BDD Demo Login Page http://localhost:60854/Account/Login: User is in BDD Demo Login Page http://localhost:60854/Account/Login
+
+2019-01-21 22:24:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-21 22:24:34 - [MESSAGE][INFO] - Starting 'IE' driver
+
+2019-01-21 22:24:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-21 22:24:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60854/Account/Login' successfully
+
+2019-01-21 22:24:38 - [MESSAGE][PASSED] - User is in BDD Demo Login Page http://localhost:60854/Account/Login
+
+2019-01-21 22:24:38 - [TEST_STEP][PASSED] - User enters username in BDD Demo Promantus: User enters username in BDD Demo Promantus
+
+2019-01-21 22:24:43 - [MESSAGE][PASSED] - Text 'Promantus' is set on object 'Object Repository/bddDemo_Login/input_Username_Username'
+
+2019-01-21 22:24:43 - [MESSAGE][PASSED] - User enters username in BDD Demo Promantus
+
+2019-01-21 22:24:43 - [TEST_STEP][PASSED] - user enters password  in BDD Demo : user enters password  in BDD Demo 
+
+2019-01-21 22:24:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/bddDemo_Login/input_Password_Password'
+
+2019-01-21 22:24:44 - [MESSAGE][PASSED] - user enters password  in BDD Demo 
+
+2019-01-21 22:24:44 - [TEST_STEP][PASSED] - user clicks on Login button: user clicks on Login button
+
+2019-01-21 22:24:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-21 22:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/bddDemo_Login/input_Password_btn btn-default' is clicked on
+
+2019-01-21 22:24:51 - [MESSAGE][PASSED] - user clicks on Login button
+
+2019-01-21 22:24:51 - [TEST_STEP][PASSED] - user is redirected to paybill page: user is redirected to paybill page
+
+2019-01-21 22:24:51 - [MESSAGE][PASSED] - user is redirected to paybill page
+
+2019-01-21 22:24:51 - [TEST_STEP][FAILED] - user enters dayofpayment: user enters dayofpayment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.MakePaymentStepDef.user_enters_dayofpayment(MakePaymentStepDef.groovy:62)
+	at ✽.user enters dayofpayment(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:44)
+
+
+2019-01-21 22:25:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='DayOfPayment']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-21 22:25:43 - [MESSAGE][FAILED] - Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)
+[[ATTACHMENT|C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Reports\\Release-1.0\\BVT\\20190121_222235\\1548089743344.png]]
+
+2019-01-21 22:25:43 - [MESSAGE][FAILED] - user enters dayofpayment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '11/01/2019' of object 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/bddDemo_MakePayment/input_DayOfPayment_DayOfPaymen' located by 'By.xpath: //input[@id='DayOfPayment']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at bddDemo.MakePaymentStepDef.user_enters_dayofpayment(MakePaymentStepDef.groovy:62)
+	at ✽.user enters dayofpayment(C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/MakePayment.feature:44)
+
+
+2019-01-21 22:25:43 - [TEST_STEP][NOT_RUN] - user enters amount: user enters amount
+
+2019-01-21 22:25:43 - [MESSAGE][NOT_RUN] - user enters amount
+
+2019-01-21 22:25:43 - [TEST_STEP][NOT_RUN] - user enters SwiftCode: user enters SwiftCode
+
+2019-01-21 22:25:43 - [MESSAGE][NOT_RUN] - user enters SwiftCode
+
+2019-01-21 22:25:43 - [TEST_STEP][NOT_RUN] - user clicks on make payment: user clicks on make payment
+
+2019-01-21 22:25:43 - [MESSAGE][NOT_RUN] - user clicks on make payment
+
+2019-01-21 22:25:43 - [TEST_STEP][NOT_RUN] - user is redirected to otp page: user is redirected to otp page
+
+2019-01-21 22:25:43 - [MESSAGE][NOT_RUN] - user is redirected to otp page
+
+2019-01-21 22:25:43 - [TEST_STEP][NOT_RUN] - user enters the otp: user enters the otp
+
+2019-01-21 22:25:43 - [MESSAGE][NOT_RUN] - user enters the otp
+
+2019-01-21 22:25:43 - [TEST_STEP][NOT_RUN] - user clicks on submit otp: user clicks on submit otp
+
+2019-01-21 22:25:43 - [MESSAGE][NOT_RUN] - user clicks on submit otp
+
+2019-01-21 22:25:43 - [TEST_STEP][NOT_RUN] - user should see the validation message: user should see the validation message
+
+2019-01-21 22:25:43 - [MESSAGE][NOT_RUN] - user should see the validation message
+
+2019-01-21 22:25:43 - [MESSAGE][FAILED] - Feature file 'Include/features/MakePayment.feature' was failed
+
+2019-01-21 22:25:43 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/MakePayment.feature' was failed)
+
+2019-01-21 22:25:43 - [MESSAGE][FAILED] - runFeatureFile("Include/features/MakePayment.feature") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/MakePayment.feature' was failed)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$2.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$1.call(Unknown Source)
+	at TC_AddSwiftCode.run(TC_AddSwiftCode:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-21 22:24:24 - [TEST_CASE][FAILED] - Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode: Test Cases/FunctionalTestCases/FY19/Sprint1/TC_AddSwiftCode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/MakePayment.feature' was failed)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$2.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$1.call(Unknown Source)
+	at TC_AddSwiftCode.run(TC_AddSwiftCode:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails" classname="Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails" status="PASSED">
+         <system-out><![CDATA[2019-01-21 22:25:43 - [TEST_CASE][PASSED] - Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails: Test Cases/FunctionalTestCases/FY19/Sprint2/TC_AddCaptchaDetails
+
+2019-01-21 22:25:43 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-21 22:23:04 - [TEST_SUITE][FAILED] - BVT: Test Cases/TC_SmokeTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35286/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f66b947b-38b5-41fc-a6d8-c22fd2a0f5da
+*** Element info: {Using=xpath, value=//input[@id='Username']}), Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32158/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 01416d5d-a273-4afc-b9db-9f64e709b253
+*** Element info: {Using=xpath, value=//input[@id='Username']})]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SmokeTest.run(TC_SmokeTest:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-21 22:23:04 - [TEST_SUITE][FAILED] - BVT: Test Cases/TC_SmokeTest FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runWithCucumberRunner was failed (Root cause: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed() is applicable for argument types: (java.lang.String) values: [These following reason:
+ [Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35286/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: f66b947b-38b5-41fc-a6d8-c22fd2a0f5da
+*** Element info: {Using=xpath, value=//input[@id='Username']}), Unable to set text 'Promantus' of object 'Object Repository/bddDemo_Login/input_Username_Username' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32158/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 01416d5d-a273-4afc-b9db-9f64e709b253
+*** Element info: {Using=xpath, value=//input[@id='Username']})]]
+Possible solutions: stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String), stepFailed(java.lang.String, com.kms.katalon.core.model.FailureHandling, java.lang.String, java.util.Map))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SmokeTest.run(TC_SmokeTest:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548089555164.run(TempTestSuite1548089555164.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
