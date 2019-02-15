@@ -15,7 +15,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\PROMAN~1\\AppData\\Local\\Temp\\Katalon\\Include\\features\\MakePayment.feature\\20190124_031045\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\PROMAN~1\\AppData\\Local\\Temp\\Katalon\\Include\\features\\MakePayment.feature\\20190215_132947\\execution.properties')
 
 TestCaseMain.beforeStart()
 TestCaseMain.runFeatureFile('Include/features/MakePayment.feature')

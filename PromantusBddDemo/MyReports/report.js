@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Include/features/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("G:/Git Projects/PromantusBddAutomation/PromantusBddDemo/Include/features/Login.feature");
 formatter.feature({
   "name": "Title of your feature",
   "description": "  I want to use this template for my feature file",
@@ -53,7 +53,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "http://promantusbdddemo.azurewebsites.net/Account/Login",
+        "http://164.164.39.5:5002/Account/Login",
         "Promantus",
         "bdd"
       ]
@@ -74,7 +74,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "User is in BDD Demo Login Page http://promantusbdddemo.azurewebsites.net/Account/Login",
+  "name": "User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login",
   "keyword": "Given "
 });
 formatter.match({
@@ -123,7 +123,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.uri("Include/features/MakePayment.feature");
+formatter.uri("G:/Git Projects/PromantusBddAutomation/PromantusBddDemo/Include/features/MakePayment.feature");
 formatter.feature({
   "name": "Title of your feature",
   "description": "",
@@ -210,7 +210,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "http://promantusbdddemo1.azurewebsites.net",
+        "http://164.164.39.5:5002",
         "Promantus",
         "bdd"
       ]
@@ -231,7 +231,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "User is in BDD Demo Login Page http://promantusbdddemo1.azurewebsites.net",
+  "name": "User is in BDD Demo Login Page http://164.164.39.5:5002",
   "keyword": "Given "
 });
 formatter.match({

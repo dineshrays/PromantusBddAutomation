@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="38.377236">
-<testcase classname="Title of your feature" name="To login a valid user credentials" time="12.512652">
-<system-out><![CDATA[Given User is in BDD Demo Login Page http://promantusbdddemo.azurewebsites.net/Account/Login.passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="67.396914">
+<testcase classname="Title of your feature" name="To login a valid user credentials" time="21.607075">
+<system-out><![CDATA[Given User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login.passed
 When User enters username in BDD Demo Promantus.............................passed
 And user enters password  in BDD Demo bdd...................................passed
 And user clicks on Login button.............................................passed
 Then user should be able to login successfully..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Title of your feature" name="To make a payment with valid Payment details" time="25.864584">
-<system-out><![CDATA[Given User is in BDD Demo Login Page http://promantusbdddemo1.azurewebsites.net.passed
+<testcase classname="Title of your feature" name="To make a payment with valid Payment details" time="45.789839">
+<system-out><![CDATA[Given User is in BDD Demo Login Page http://164.164.39.5:5002...............passed
 And User enters username in BDD Demo Promantus..............................passed
 And user enters password  in BDD Demo bdd...................................passed
 And user clicks on Login button.............................................passed

@@ -48,6 +48,7 @@ import cucumber.api.java.en.When
 
 
 
+
 class LoginStepDef {
 
 	int flag = 0
@@ -56,7 +57,7 @@ class LoginStepDef {
 	public void user_is_in_BDD_Demo_Login_Page(String loginUrl) {
 
 		WebUI.openBrowser('')
-
+		loginUrl = GlobalVariable.Url
 		WebUI.navigateToUrl(loginUrl)
 		println "User is in Login Page"
 	}
@@ -81,6 +82,7 @@ class LoginStepDef {
 	@When("user enters password  in BDD Demo (.*)")
 	public void user_enters_password_in_BDD_Demo(String password) {
 		WebUI.setText(findTestObject('bddDemo_Login/input_Password_Password'), password)
+
 		//WebUI.delay(3)
 		println "User entered the password"
 	}

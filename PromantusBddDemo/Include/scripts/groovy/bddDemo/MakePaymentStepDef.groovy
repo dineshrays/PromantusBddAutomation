@@ -68,17 +68,29 @@ class MakePaymentStepDef {
 
 		WebUI.setText(findTestObject('bddDemo_MakePayment/input_Amount_Amount'), '145')
 
+
 		WebUI.delay(2)
 		println "user enters amount"
+
+		//WebUI.setText(findTestObject('bddDemo_MakePayment/input_Amount_Amount'), '145',  FailureHandling.STOP_ON_FAILURE)
+
 	}
 
 
-	/*@Then("user enters SwiftCode")
-	 def user_enters_SwiftCode() {
-	 WebUI.setText(findTestObject('bddDemo_MakePayment/input_SwiftCode_SwiftCode'),'FD124')
-	 WebUI.delay(2)
-	 println "user enters Swift Code"
-	 }*/
+	@Then("user enters SwiftCode")
+	def user_enters_SwiftCode() {
+
+		// WebUI.setText(findTestObject('bddDemo_MakePayment/input_SwiftCode_SwiftCode'), 'FD124', FailureHandling.STOP_ON_FAILURE)
+		//	 if (WebUI.verifyElementPresent(findTestObject('bddDemo_MakePayment/input_SwiftCode_SwiftCode')){
+
+		if (WebUI.verifyElementPresent(findTestObject('bddDemo_MakePayment/input_SwiftCode_SwiftCode'), 5, FailureHandling.STOP_ON_FAILURE)){
+
+			WebUI.setText(findTestObject('bddDemo_MakePayment/input_SwiftCode_SwiftCode'),'FD124')
+			WebUI.delay(2)
+			println "user enters Swift Code"
+		}
+
+	}
 
 	@Then("user clicks on make payment")
 	def user_clicks_on_make_payment() {

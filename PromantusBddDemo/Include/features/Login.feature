@@ -22,10 +22,9 @@ Feature: Title of your feature
     Then user should be able to login successfully
 
     Examples: 
-      | Url                                                      | UserName  | Password |
-      | http://promantusbdddemo.azurewebsites.net/Account/Login | Promantus | bdd      |
-      
-      
+      | Url                                    | UserName  | Password |
+      | http://164.164.39.5:5002/Account/Login | Promantus | bdd      |
+
   @RegressionTest
   Scenario Outline: To login a invalid user credentials
     Given User is in BDD Demo Login Page <Url>
@@ -37,7 +36,7 @@ Feature: Title of your feature
     Then user should not be able to login successfully <Error>
 
     Examples: 
-      | Url                                                      | UserName  | Password | Error                         |
-      | http://promantusbdddemo.azurewebsites.net/Account/Login |           | bdd      | Username is required.         |
-      | http://promantusbdddemo.azurewebsites.net/Account/Login | Promantus |          | Password is required.         |
-      | http://promantusbdddemo.azurewebsites.net/Account/Login | Promant   | bdd      | Username or Pawword is wrong. |
+      | Url                                    | UserName  | Password | Error                         |
+      | http://164.164.39.5:5002/Account/Login |           | bdd      | Username is required.         |
+      | http://164.164.39.5:5002/Account/Login | Promantus |          | Password is required.         |
+      | http://164.164.39.5:5002/Account/Login | Promant   | bdd      | Username or Pawword is wrong. |

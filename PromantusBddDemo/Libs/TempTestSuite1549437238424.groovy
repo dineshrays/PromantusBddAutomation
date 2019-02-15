@@ -29,7 +29,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\Promantus Inc\\Katalon Studio\\PromantusBddDemo\\Reports\\Release-1.0\\BVT\\20190124_034107\\execution.properties")
+RunConfiguration.setExecutionSettingFile("G:\\Git Projects\\PromantusBddAutomation\\PromantusBddDemo\\Reports\\Release-1.0\\BVT\\20190206_124358\\execution.properties")
 
 TestCaseMain.beforeStart()
 

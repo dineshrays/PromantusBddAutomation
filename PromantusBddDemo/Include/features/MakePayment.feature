@@ -20,7 +20,7 @@ Feature: Title of your feature
     And user is redirected to paybill page
     And user enters dayofpayment
     And user enters amount
-    # And user enters SwiftCode
+    And user enters SwiftCode
     When user clicks on make payment
     And user is redirected to otp page
     And user enters the otp
@@ -28,6 +28,6 @@ Feature: Title of your feature
     Then user should see the payment successful page
 
     Examples: 
-      | Url                                       | UserName  | Password |
-      | http://promantusbdddemo.azurewebsites.net | Promantus | bdd      |
+      | Url                      | UserName  | Password |
+      | http://164.164.39.5:5002 | Promantus | bdd      |
      #| http://promantusbdddemo1.azurewebsites.net | Promantus | bdd      |

@@ -53,7 +53,7 @@ import cucumber.api.junit.Cucumber;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="Include/features", glue="",
+@CucumberOptions(features="G:\\Git Projects\\PromantusBddAutomation\\PromantusBddDemo\\Include\\features", glue="",
 plugin = ["pretty",
 	"junit:MyReports/cucumber.xml",
 	"html:MyReports",

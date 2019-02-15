@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BVT,Chrome 71.0.3578.98,,2019-02-06 21:34:58,2019-02-06 21:35:33,35.250s,PASSED
+,,,,,,
+Test Cases/TC_SmokeTest,Chrome 71.0.3578.98,,2019-02-06 21:34:59,2019-02-06 21:35:33,34.678s,PASSED
+runWithCucumberRunner(common.CucumberPAFrunner),Chrome 71.0.3578.98,,2019-02-06 21:34:59,2019-02-06 21:35:33,34.211s,PASSED

@@ -53,7 +53,8 @@ class RegistrationStepDef {
 
 		WebUI.openBrowser('')
 
-		WebUI.navigateToUrl('http://promantusbdddemo.azurewebsites.net/Account/Register')
+		String loginUrl = GlobalVariable.Url+'/Account/Register'
+		WebUI.navigateToUrl(loginUrl)
 		println "User is in Register Page"
 	}
 

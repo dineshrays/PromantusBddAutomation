@@ -12,15 +12,15 @@
         "steps": [
           {
             "result": {
-              "duration": 7675853843,
+              "duration": 12532102471,
               "status": "passed"
             },
             "line": 16,
-            "name": "User is in BDD Demo Login Page http://promantusbdddemo.azurewebsites.net/Account/Login",
+            "name": "User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login",
             "match": {
               "arguments": [
                 {
-                  "val": "http://promantusbdddemo.azurewebsites.net/Account/Login",
+                  "val": "http://164.164.39.5:5002/Account/Login",
                   "offset": 31
                 }
               ],
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 294451673,
+              "duration": 573636717,
               "status": "passed"
             },
             "line": 17,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 177326787,
+              "duration": 407581668,
               "status": "passed"
             },
             "line": 18,
@@ -66,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 2874115988,
+              "duration": 7125893686,
               "status": "passed"
             },
             "line": 19,
@@ -78,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 1444653792,
+              "duration": 910366514,
               "status": "passed"
             },
             "line": 22,
@@ -103,7 +103,7 @@
     "description": "  I want to use this template for my feature file",
     "id": "title-of-your-feature",
     "keyword": "Feature",
-    "uri": "Include/features/Login.feature",
+    "uri": "G:/Git Projects/PromantusBddAutomation/PromantusBddDemo/Include/features/Login.feature",
     "tags": [
       {
         "name": "@FunctionalTest",
@@ -119,7 +119,7 @@
     "line": 11,
     "elements": [
       {
-        "line": 33,
+        "line": 32,
         "name": "To make a payment with valid Payment details",
         "description": "",
         "id": "title-of-your-feature;to-make-a-payment-with-valid-payment-details;;2",
@@ -128,15 +128,15 @@
         "steps": [
           {
             "result": {
-              "duration": 6183008248,
+              "duration": 7699930638,
               "status": "passed"
             },
             "line": 16,
-            "name": "User is in BDD Demo Login Page http://promantusbdddemo1.azurewebsites.net",
+            "name": "User is in BDD Demo Login Page http://164.164.39.5:5002",
             "match": {
               "arguments": [
                 {
-                  "val": "http://promantusbdddemo1.azurewebsites.net",
+                  "val": "http://164.164.39.5:5002",
                   "offset": 31
                 }
               ],
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 217334519,
+              "duration": 659870089,
               "status": "passed"
             },
             "line": 17,
@@ -164,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 181770915,
+              "duration": 262144031,
               "status": "passed"
             },
             "line": 18,
@@ -182,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 2869572556,
+              "duration": 21614959140,
               "status": "passed"
             },
             "line": 19,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 8114217,
+              "duration": 11547548,
               "status": "passed"
             },
             "line": 20,
@@ -206,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 292798246,
+              "duration": 263105351,
               "status": "passed"
             },
             "line": 21,
@@ -218,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 2210306981,
+              "duration": 2170356070,
               "status": "passed"
             },
             "line": 22,
@@ -230,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 2159501185,
+              "duration": 2289688160,
               "status": "passed"
             },
             "line": 23,
@@ -242,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 2969687038,
+              "duration": 2308245115,
               "status": "passed"
             },
             "line": 24,
@@ -254,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 498030,
+              "duration": 579586,
               "status": "passed"
             },
             "line": 25,
@@ -266,7 +266,7 @@
           },
           {
             "result": {
-              "duration": 2157634425,
+              "duration": 2207299690,
               "status": "passed"
             },
             "line": 26,
@@ -278,7 +278,7 @@
           },
           {
             "result": {
-              "duration": 3687137475,
+              "duration": 3483725709,
               "status": "passed"
             },
             "line": 27,
@@ -290,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 2911904678,
+              "duration": 2786498170,
               "status": "passed"
             },
             "line": 28,
@@ -315,7 +315,7 @@
     "description": "",
     "id": "title-of-your-feature",
     "keyword": "Feature",
-    "uri": "Include/features/MakePayment.feature",
+    "uri": "G:/Git Projects/PromantusBddAutomation/PromantusBddDemo/Include/features/MakePayment.feature",
     "tags": [
       {
         "name": "@FunctionalTest",
