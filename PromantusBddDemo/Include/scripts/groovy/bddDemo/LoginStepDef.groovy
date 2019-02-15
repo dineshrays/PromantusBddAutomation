@@ -58,8 +58,8 @@ class LoginStepDef {
 
 		WebUI.openBrowser('')
 		//loginUrl = GlobalVariable.Url
-		//loginUrl = "http://164.164.39.5:5002"
-		loginUrl = "http://164.164.39.5:5003"
+		loginUrl = "http://164.164.39.5:5002"
+		//loginUrl = "http://164.164.39.5:5003"
 		WebUI.navigateToUrl(loginUrl)
 		println "User is in Login Page"
 	}
