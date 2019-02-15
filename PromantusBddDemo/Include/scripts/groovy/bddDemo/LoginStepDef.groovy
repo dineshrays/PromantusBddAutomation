@@ -57,7 +57,8 @@ class LoginStepDef {
 	public void user_is_in_BDD_Demo_Login_Page(String loginUrl) {
 
 		WebUI.openBrowser('')
-		loginUrl = GlobalVariable.Url
+		//loginUrl = GlobalVariable.Url
+		loginUrl = "http://164.164.39.5:5002"
 		WebUI.navigateToUrl(loginUrl)
 		println "User is in Login Page"
 	}
