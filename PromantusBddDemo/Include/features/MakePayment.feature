@@ -20,7 +20,7 @@ Feature: Title of your feature
     And user is redirected to paybill page
     And user enters dayofpayment
     And user enters amount
-   # And user enters SwiftCode
+    And user enters SwiftCode
     When user clicks on make payment
     And user is redirected to otp page
     And user enters the otp
