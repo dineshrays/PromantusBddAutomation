@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11785221570,
+              "duration": 9653800482,
               "status": "passed"
             },
             "line": 16,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 321187823,
+              "duration": 282993278,
               "status": "passed"
             },
             "line": 17,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 192039392,
+              "duration": 204209570,
               "status": "passed"
             },
             "line": 18,
@@ -66,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 21218731699,
+              "duration": 21493899618,
               "status": "passed"
             },
             "line": 19,
@@ -78,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 872885218,
+              "duration": 877225129,
               "status": "passed"
             },
             "line": 22,
@@ -128,7 +128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5028942310,
+              "duration": 4972696767,
               "status": "passed"
             },
             "line": 16,
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 144955844,
+              "duration": 226235736,
               "status": "passed"
             },
             "line": 17,
@@ -164,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 146256987,
+              "duration": 250559858,
               "status": "passed"
             },
             "line": 18,
@@ -182,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 21396499677,
+              "duration": 40560955672,
               "status": "passed"
             },
             "line": 19,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 3225294,
+              "duration": 4253069,
               "status": "passed"
             },
             "line": 20,
@@ -206,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 236043771,
+              "duration": 261943913,
               "status": "passed"
             },
             "line": 21,
@@ -218,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 2163721224,
+              "duration": 2203117985,
               "status": "passed"
             },
             "line": 22,
@@ -230,7 +230,19 @@
           },
           {
             "result": {
-              "duration": 2246613763,
+              "duration": 2177927316,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters SwiftCode",
+            "match": {
+              "location": "MakePaymentStepDef.user_enters_SwiftCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2242379196,
               "status": "passed"
             },
             "line": 24,
@@ -242,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 321698,
+              "duration": 309994,
               "status": "passed"
             },
             "line": 25,
@@ -254,7 +266,7 @@
           },
           {
             "result": {
-              "duration": 2177034716,
+              "duration": 2139314789,
               "status": "passed"
             },
             "line": 26,
@@ -266,7 +278,7 @@
           },
           {
             "result": {
-              "duration": 2688255468,
+              "duration": 2280441211,
               "status": "passed"
             },
             "line": 27,
@@ -278,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 2685550481,
+              "duration": 2764837503,
               "status": "passed"
             },
             "line": 28,
