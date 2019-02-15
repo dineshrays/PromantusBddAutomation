@@ -173,10 +173,6 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "name": "user enters SwiftCode",
-  "keyword": "And "
-});
-formatter.step({
   "name": "user clicks on make payment",
   "keyword": "When "
 });
@@ -296,16 +292,6 @@ formatter.step({
 });
 formatter.match({
   "location": "MakePaymentStepDef.user_enters_amount()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters SwiftCode",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "MakePaymentStepDef.user_enters_SwiftCode()"
 });
 formatter.result({
   "status": "passed"

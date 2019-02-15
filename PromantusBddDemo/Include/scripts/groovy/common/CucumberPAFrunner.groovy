@@ -51,23 +51,23 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 /* For Local Environment to test uncomment
- @RunWith(Cucumber.class)
- @CucumberOptions(features="G:\\Git Projects\\PromantusBddAutomation\\PromantusBddDemo\\Include\\features", glue="",
- plugin = ["pretty",
- "junit:MyReports/cucumber.xml",
- "html:MyReports",
- "json:MyReports/cucumber.json"],
- tags= ['@SmokeTest'])*/
+@RunWith(Cucumber.class)
+@CucumberOptions(features="G:\\Git Projects\\PromantusBddAutomation\\PromantusBddDemo\\Include\\features", glue="",
+plugin = ["pretty",
+	"junit:MyReports/cucumber.xml",
+	"html:MyReports",
+	"json:MyReports/cucumber.json"],
+tags= ['@SmokeTest'])*/
 
 
 /* For Git and Jenkins Environment */
-@RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationPromantusBdd\\PromantusBddDemo\\Include\\features", glue="",
-plugin = ["pretty",
-	"junit:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationPromantusBdd\\PromantusBddDemo\\MyReports\\cucumber.xml",
-	"html:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationPromantusBdd\\PromantusBddDemo\\MyReports",
-	"json:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationPromantusBdd\\PromantusBddDemo\\MyReports\\cucumber.json"],
-tags= ['@SmokeTest'])
+ @RunWith(Cucumber.class)
+ @CucumberOptions(features="C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationPromantusBdd\\PromantusBddDemo\\Include\\features", glue="",
+ plugin = ["pretty",
+ "junit:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationPromantusBdd\\PromantusBddDemo\\MyReports\\cucumber.xml",
+ "html:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationPromantusBdd\\PromantusBddDemo\\MyReports",
+ "json:C:\\Program Files (x86)\\Jenkins\\workspace\\AutomationPromantusBdd\\PromantusBddDemo\\MyReports\\cucumber.json"],
+ tags= ['@SmokeTest'])
 
 class CucumberPAFrunner {
 }

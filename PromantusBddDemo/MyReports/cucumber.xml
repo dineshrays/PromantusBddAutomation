@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="67.396914">
-<testcase classname="Title of your feature" name="To login a valid user credentials" time="21.607075">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="73.347653">
+<testcase classname="Title of your feature" name="To login a valid user credentials" time="34.417451">
 <system-out><![CDATA[Given User is in BDD Demo Login Page http://164.164.39.5:5002/Account/Login.passed
 When User enters username in BDD Demo Promantus.............................passed
 And user enters password  in BDD Demo bdd...................................passed
@@ -7,7 +7,7 @@ And user clicks on Login button.............................................pass
 Then user should be able to login successfully..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Title of your feature" name="To make a payment with valid Payment details" time="45.789839">
+<testcase classname="Title of your feature" name="To make a payment with valid Payment details" time="38.930202">
 <system-out><![CDATA[Given User is in BDD Demo Login Page http://164.164.39.5:5002...............passed
 And User enters username in BDD Demo Promantus..............................passed
 And user enters password  in BDD Demo bdd...................................passed
@@ -15,7 +15,6 @@ And user clicks on Login button.............................................pass
 And user is redirected to paybill page......................................passed
 And user enters dayofpayment................................................passed
 And user enters amount......................................................passed
-And user enters SwiftCode...................................................passed
 When user clicks on make payment............................................passed
 And user is redirected to otp page..........................................passed
 And user enters the otp.....................................................passed
