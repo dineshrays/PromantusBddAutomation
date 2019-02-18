@@ -8,8 +8,8 @@
 # CR #1 :
 #---------------------------------------------------------------------------------------------------------------------
 @FunctionalTest @tag
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: User Registration
+  
 
   @tag1
   Scenario: To register a user

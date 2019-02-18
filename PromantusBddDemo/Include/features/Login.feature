@@ -8,8 +8,8 @@
 # CR #1 :
 #---------------------------------------------------------------------------------------------------------------------
 @FunctionalTest
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: User Login
+  
 
   @SmokeTest
   Scenario Outline: To login a valid user credentials
